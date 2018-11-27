@@ -63,14 +63,14 @@ const liri = () => {
             name: "route",
             message: "Welcome to LiriBot! How can I help you?",
             type: "list",
-            choices: ["Search Spotify for a Song", "Find a Movie", "Check Out My Tweets", "Simon Says"]
+            choices: ["Search Spotify for a Song", "Find a Movie", "Check Out #WeirdTwitter", "Simon Says"]
         },
         {
             name: "twitter",
-            message: "Are you sure you want to search my secret Twitter?",
+            message: "Are you sure you want to #WeirdTwitter?",
             type: "confirm",
             when: (answers) => {
-                return answers.route === "Check Out My Tweets"
+                return answers.route === "Check Out #WeirdTwitter"
             }
         },
         {
