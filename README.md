@@ -14,7 +14,7 @@
 ## <a name="how-to"></a> How to Use
 LIRI uses Inquirer.js to help the user navigate thru the application. The app allows the user to find information on songs, artists and albums via Spotify, search for movie reviews and descriptions with Open Movie Database (OMDB), search Twitter, or the user can leave it up to LIRI to decide where to go.
 
-## <a name="requirements></a> System Requirements
+## <a name="requirements"></a> System Requirements
 - Terminal, Command Prompt, Bash, or the command line application of your choice
 - [Node.js](https://nodejs.org/en/download/)
 
