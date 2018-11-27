@@ -20,6 +20,7 @@ LIRI uses Inquirer.js to help the user navigate thru the application. The app al
 
 ## <a name="installation"></a> Local Installation
 ### <a name="vm-installation"></a> Install With a Virtual Machine
+There is a Vagrant Ubuntu Shell provided with this repo. For more information on Vagrant click [here](https://www.vagrantup.com/intro/getting-started/).
 - Clone or download the repository
 - Open the root of the repository in your terminal
 - Spin up the virtual machine via `vagrant up`
